@@ -1,4 +1,3 @@
-This is application for language exchanging.
+It's will be an application for language exchange.
 
-## Lets Talk Together!
-
+## Someday...
