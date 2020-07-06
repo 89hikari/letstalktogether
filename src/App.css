@@ -8,25 +8,6 @@
   ;
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
-/*  grid-gap: 10px; */
+  grid-gap: 10px; 
 
-}
-
-.header img {
-  width: 100px;
-}
-
-.header{
-  grid-area: h;
-  background-color: green;
-}
-
-.nav{
-  grid-area: n;
-  background-color: aqua;
-}
-
-.contant{
-  grid-area: c;
-  background-color: blueviolet;
 }
