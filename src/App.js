@@ -1,29 +1,16 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import Navbar from './components/Navbar';
 
 const App = () => {
   return (
     <div className="app-wrapper">
-      <header className='header'>
-        <img src='https://s2.logaster.com/static/v3/img/products/logo.png' />
-      </header>
-      <nav className='nav'>
-        <div>
-          <a href='#'>My Profile</a>
-        </div>
-        <div>
-        <a href='#'>Messages</a>
-        </div>
-        <div>
-        <a href='#'>News</a>
-        </div>
-        <div>
-        <a href='#'>Settings</a>
-        </div>
-      </nav>
+      <Header />
+      <Navbar />
       <div className='contant'>
         <div>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQGMf5RLsxY1VKguLz-6s6bhYUkC3xWrAmG3Q&usqp=CAU"/>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQGMf5RLsxY1VKguLz-6s6bhYUkC3xWrAmG3Q&usqp=CAU" />
         </div>
         <div>
           avatar + description
