@@ -1,0 +1,26 @@
+.dialogs{
+    display: flex;
+    width: 100%;
+    padding-top: 3vh;
+}
+
+.dialogsItems{
+    width: 25vw;
+}
+
+.dialog{
+    padding: 0.5vh;
+    padding-left: 5vh;
+}
+
+.dialogsItems .active {
+    color: 
+}
+
+.messages{
+
+}
+
+.message{
+
+}
