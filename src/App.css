@@ -1,6 +1,8 @@
 .app-wrapper{
   display: grid;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgb(90, 200, 214), rgb(39, 60, 197));
   margin: 0 auto;
   grid-template-areas:
   "h h"
@@ -8,8 +10,8 @@
   ;
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
-  grid-gap: 10px; 
-  font-family: sans-serif;
+  grid-gap: 1vh; 
+
 }
 
 .app-wrapper-content{

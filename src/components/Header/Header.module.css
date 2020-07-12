@@ -1,8 +1,10 @@
 .header img {
-    width: 100px;
+    height: 100%;
 }
   
 .header {
+    width: 100vw;
+    height: 100%;
     grid-area: h;
     background-color: green;
 }
