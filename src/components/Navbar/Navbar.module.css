@@ -1,8 +1,16 @@
 .nav{
     grid-area: n;
-    background-color: aqua;
+    background-color: white
+}
+
+.item a {
+    color: rgb(6, 1, 56);
+    outline: none;
+    text-decoration: none;
 }
 
 .item {
-    color: white;
+    margin: 1px;
+    padding: 1vh;
+    background: linear-gradient(0.25turn, #3f87a6, #6cd0e9, #2e9edf)
 }
