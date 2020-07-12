@@ -4,13 +4,33 @@
 }
 
 .item a {
-    color: rgb(6, 1, 56);
+    color: rgb(48, 43, 105);
     outline: none;
     text-decoration: none;
+    display: flex;
+    margin: 1px;
+    padding: 1vh;
+    margin-left: 2.5vh;
+    transition: color 0.15s linear;
+}
+
+.item a:hover{
+    color: rgb(6, 7, 87);
+}
+
+.item a.active{
+    background-color: #8bd484;
+}
+
+.item.active{
+    background-color: #8bd484;
 }
 
 .item {
-    margin: 1px;
-    padding: 1vh;
-    background: linear-gradient(0.25turn, #3f87a6, #6cd0e9, #2e9edf)
+    background-color: #bbdefa;
+    transition: background-color 0.15s linear;
+}
+
+.item:hover {
+    background-color: #a5afe9;
 }
