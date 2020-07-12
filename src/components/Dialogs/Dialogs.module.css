@@ -2,10 +2,21 @@
     display: flex;
     width: 100%;
     padding-top: 3vh;
+    
 }
 
 .dialogsItems{
     width: 25vw;
+    text-decoration: none;
+}
+
+.dialogsItems a{
+    text-decoration: none;
+    outline: none;
+}
+
+.dialogsItems a:hover{
+    color: rgb(6, 7, 87);
 }
 
 .dialog{
@@ -14,7 +25,7 @@
 }
 
 .dialogsItems .active {
-    color: 
+    color: white;
 }
 
 .messages{
