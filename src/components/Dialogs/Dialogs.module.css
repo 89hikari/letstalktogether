@@ -2,21 +2,25 @@
     display: flex;
     width: 100%;
     padding-top: 3vh;
-    
 }
 
 .dialogsItems{
     width: 25vw;
-    text-decoration: none;
 }
 
-.dialogsItems a{
+.dialog a{
     text-decoration: none;
     outline: none;
 }
 
-.dialogsItems a:hover{
-    color: rgb(6, 7, 87);
+.dialog a:visited{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    outline: none;
+}
+
+.dialog a:hover{
+    color: rgb(0, 0, 0);
 }
 
 .dialog{
@@ -24,12 +28,12 @@
     padding-left: 5vh;
 }
 
-.dialogsItems .active {
+.dialog a.active {
     color: white;
 }
 
 .messages{
-
+    color: white;
 }
 
 .message{
