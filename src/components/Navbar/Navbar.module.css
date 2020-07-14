@@ -35,3 +35,11 @@
 .item:hover {
     background-color: #a5afe9;
 }
+
+hr {
+    margin-top: 5vh;
+    border: none; /* Убираем границу */
+    background-color: rgb(75, 110, 224); /* Цвет линии */
+    color: rgb(91, 110, 214); /* Цвет линии для IE6-7 */
+    height: 4px; /* Толщина линии */
+}
