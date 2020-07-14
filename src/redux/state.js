@@ -4,6 +4,13 @@ let state = {
         posts:  [
             {id: 1, post: "Hi, hru", likes: '24'},
             {id: 2, post: "Test", likes: '12'}
+        ],
+        sitebar: [
+            {name: "Andrew", img: "https://www.imago-images.com/imagoextern/bilder/stockfotos/en/imago-images-aurora-borealis.jpg"}, 
+            {name: "Vlad", img: "https://www.nasa.gov/sites/default/files/styles/image_card_4x3_ratio/public/thumbnails/image/iss063e012660.jpg"},
+            {name: "Vandes", img: "https://cdn.jpegmini.com/user/images/slider_puffin_before_mobile.jpg"}, 
+            {name: "Valera", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTSu5RVwzc8LFlzQ3hbeeGM2JSLw47uwgWaAg&usqp=CAU"},
+            {name: "Aloxa", img: "https://www.gettyimages.com/gi-resources/images/500px/983801190.jpg"}
         ]
     },
     

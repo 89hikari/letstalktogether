@@ -19,8 +19,8 @@
 }
 
 .dialog .ava{
-    max-width: 6vh;
-    max-height: 6vw;
+    width: 6vh;
+    height: 6vh;
     border-radius: 2vh;
 }
 
