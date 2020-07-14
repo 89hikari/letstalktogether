@@ -4,7 +4,7 @@ import Post from './Post/Post';
 
 const MyPosts = (props) => {
 
-    let postsElements = props.p.map(el => <Post message={el.post} likes={el.likes}/>)
+    let postsElements = props.state.map(el => <Post message={el.post} likes={el.likes}/>)
 
     return (
         <div className={classes.postsBlock}>

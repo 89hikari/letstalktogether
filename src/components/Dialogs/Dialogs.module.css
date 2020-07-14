@@ -4,13 +4,28 @@
     padding-top: 3vh;
 }
 
-.dialogsItems{
+.dialogsItems {
     width: 25vw;
 }
 
 .dialog a{
     text-decoration: none;
     outline: none;
+}
+
+.dialogs .dialog{
+    display: flex;
+}
+
+.dialog .ava{
+    max-width: 6vh;
+    max-height: 6vw;
+    border-radius: 2vh;
+}
+
+.dialog .nameLink{
+    margin: auto;
+    margin-left: 2vh;
 }
 
 .dialog a:visited{
@@ -23,9 +38,9 @@
     color: rgb(0, 0, 0);
 }
 
-.dialog{
-    padding: 0.5vh;
-    padding-left: 5vh;
+.dialog, .message{
+    padding: 2vh;
+    padding-left: 2vw;
 }
 
 .dialog a.active {
@@ -34,8 +49,4 @@
 
 .messages{
     color: white;
-}
-
-.message{
-
 }
