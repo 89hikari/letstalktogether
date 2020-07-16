@@ -1,11 +1,11 @@
 import React from 'react';
-import classes from './SitebarFriends.module.css'
+import s from './SitebarFriends.module.css'
 import { NavLink } from 'react-router-dom';
 
 const SitebarFriends = (props) => {
 
-    let friendsElements = props.friends.map(m => <NavLink to='/' activeClassName={classes.active}>
-    <div className={classes.item}>
+    let friendsElements = props.friends.map(m => <NavLink to='/' activeClassName={s.active}>
+    <div className={s.item}>
         <img src={m.img} />
         <div></div>
         <span>{m.name}</span>
@@ -13,9 +13,9 @@ const SitebarFriends = (props) => {
     </NavLink>);
 
     return (
-        <div className={classes.container}>
-            <h2 className={classes.title}>Friends</h2>
-            <div className={classes.friends}>
+        <div className={s.container}>
+            <h2 className={s.title}>Friends</h2>
+            <div className={s.friends}>
                 { friendsElements }
             </div>
         </div>

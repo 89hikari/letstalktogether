@@ -6,34 +6,44 @@
     padding-bottom: 0;
 }
 
-.item a {
-    color: rgb(48, 43, 105);
-    outline: none;
-    text-decoration: none;
-    display: flex;
-    padding: 1vh;
-    padding-left: 35px;
-    border-radius: 7px;
-    transition: color 0.15s linear;
+.links a{
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #18191f;
+    line-height: 65px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 4px;
+    box-shadow: -2px -2px 3px rgba(255,255,255,0.05),
+                3px 3px 3px rgba(0,0,0,0.2);
+                font-size: 22px;
+                color: #555555
 }
 
-.item a:hover{
-    color: rgb(6, 7, 87);
+.links a:hover{
+    color: #00f3ff;
+    text-shadow: 0 0 15px #00f3ff;
 }
 
-.item a.active{
-    background-color: #8bd484;
+.profile a:hover{
+    color: #03f803;
+    text-shadow: 0 0 15px #03f803;
 }
 
-.item {
-    margin: 2px;
-    background-color: #bbdefa;
-    transition: background-color 0.15s linear;
-    border-radius: 7px;
+.news a:hover{
+    color: #fd0dc9;
+    text-shadow: 0 0 15px #fd0dc9;
 }
 
-.item:hover {
-    background-color: #a5afe9;
+.music a:hover{
+    color: #e5ff00;
+    text-shadow: 0 0 15px #e5ff00;
+}
+
+.settings a:hover{
+    color: #00ff6a;
+    text-shadow: 0 0 15px #00ff6a;
 }
 
 hr {

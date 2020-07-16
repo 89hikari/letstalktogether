@@ -30,13 +30,13 @@
     border-radius: 2vh;
 }
 
-a {
+.container a {
     text-decoration: none;
     font-family: 'Raleway',sans-serif;
     color: #ffffff; 
 }
 
-a:hover {
+.container a:hover {
     font-family: 'Raleway',sans-serif;
     color: #72ce81; 
 }
