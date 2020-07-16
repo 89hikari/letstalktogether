@@ -5,3 +5,15 @@
 .posts {
     margin-top: 1vh;
 }
+
+.text{
+    width: 35%;
+    height: 90px;
+    outline: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    resize: none;
+    font-size: 25px;
+    border-radius: 8px;
+    color: #fff;
+}
