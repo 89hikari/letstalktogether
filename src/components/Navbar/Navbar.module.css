@@ -17,13 +17,21 @@
     margin-bottom: 4px;
     box-shadow: -2px -2px 3px rgba(255,255,255,0.05),
                 3px 3px 3px rgba(0,0,0,0.2);
-                font-size: 22px;
-                color: #555555
+    font-size: 22px;
+    color: #555555
 }
 
-.links a:hover{
+.text{
+    color: rgb(192, 167, 167);
+    text-shadow: -2px -2px 3px rgba(49, 204, 18, 0.1),
+                3px 3px 3px rgba(0,0,0,0.2);
+    transform: translate(100px,-88px);
+}
+
+.links a:hover, .text:hover{
     color: #00f3ff;
     text-shadow: 0 0 15px #00f3ff;
+    transition: 0.3s;
 }
 
 .profile a:hover{
