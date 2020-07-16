@@ -1,5 +1,7 @@
 .nav{
+    position: fixed;
     margin: 0;
+    margin-top: 8vh;
     padding: 0;
     grid-area: n;
     padding: 2%;
@@ -15,7 +17,7 @@
     width: 5.5vh;
     height: 5.5vh;
     background: #18191f;
-    line-height: 6vh;
+    line-height: 5.5vh;
     text-align: center;
     border-radius: 15px;
     margin-bottom: 10px;
@@ -26,6 +28,8 @@
 }
 
 .text{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    letter-spacing: 1   px;
     font-size: 3vh;
     color: rgb(192, 167, 167);
     text-shadow: -2px -2px 3px rgba(49, 204, 18, 0.1),

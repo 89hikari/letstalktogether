@@ -20,8 +20,25 @@
   bottom: 0;
   width: 80%;
   height: 90%;
-  background: rgba(168, 6, 231, 0.2);
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-bottom: 1vh;
   margin-right: 1vh;
   border-radius: 2vh;
+  box-shadow: -8px -8px 3px rgba(255,255,255,0.02),
+                6px 6px 6px rgba(0,0,0,0.1);
+}
+
+.app-wrapper-content::after {
+  content: "";
+  background: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Desktop-Outer-Space-Wallpapers-High-Quality.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
 }

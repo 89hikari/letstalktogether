@@ -5,7 +5,7 @@
 }
   
 .header {
-    position: fixed;
+    position: absolute;
     height: 7%;
     width: 100%;
     grid-area: h;
