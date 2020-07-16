@@ -6,26 +6,31 @@
     padding-bottom: 0;
 }
 
+.links div{
+    width: 8vh;
+}
+
 .links a{
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 5.5vh;
+    height: 5.5vh;
     background: #18191f;
-    line-height: 65px;
+    line-height: 6vh;
     text-align: center;
     border-radius: 15px;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
     box-shadow: -2px -2px 3px rgba(255,255,255,0.05),
                 3px 3px 3px rgba(0,0,0,0.2);
-    font-size: 22px;
+    font-size: 2.5vh;
     color: #555555
 }
 
 .text{
+    font-size: 3vh;
     color: rgb(192, 167, 167);
     text-shadow: -2px -2px 3px rgba(49, 204, 18, 0.1),
                 3px 3px 3px rgba(0,0,0,0.2);
-    transform: translate(100px,-88px);
+    transform: translate(10vh,-8.8vh);
 }
 
 .links a:hover, .text:hover{

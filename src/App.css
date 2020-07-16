@@ -2,7 +2,6 @@
   display: grid;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(#0d123a, #060818);
   margin: 0 auto;
   grid-template-areas:
   "h h"
@@ -15,7 +14,12 @@
 }
 
 .app-wrapper-content{
+  position: absolute;
   grid-area: c;
+  right: 0;
+  bottom: 0;
+  width: 80%;
+  height: 90%;
   background: rgba(168, 6, 231, 0.2);
   margin-bottom: 1vh;
   margin-right: 1vh;

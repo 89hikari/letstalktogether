@@ -13,6 +13,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  background: linear-gradient(#0d123a, #060818);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
 }
 
 code {
