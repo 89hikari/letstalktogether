@@ -11,7 +11,10 @@
     margin: 1vh;
     margin-top: 4vh;
     margin-bottom: 4vh;
-    padding-right: 12vw;
+    padding-right: 12vw;    
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 15px;
 }
 
 .dialogsItems::before{
@@ -116,7 +119,7 @@
 }
 
 .dialog a:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(250, 157, 237);
 }
 
 .dialog, .message{
@@ -129,7 +132,7 @@
 }
 
 .dialog a.active.nameLink{
-    color: rgb(49, 24, 24);
+    color: rgb(255, 255, 255);
 }
 
 .messages{
