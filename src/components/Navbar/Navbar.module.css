@@ -12,8 +12,6 @@
     overflow-y: auto;
 }
 
-
-
 .links div{
     width: 8vh;
 }
@@ -40,7 +38,7 @@
     color: rgb(192, 167, 167);
     text-shadow: -2px -2px 3px rgba(49, 204, 18, 0.1),
                 3px 3px 3px rgba(0,0,0,0.2);
-    transform: translate(10vh,-8.8vh);
+    transform: translate(150%,-8.8vh);
 }
 
 .links a:hover, .text:hover{

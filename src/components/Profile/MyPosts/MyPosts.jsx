@@ -6,6 +6,8 @@ const MyPosts = (props) => {
 
     let postsElements = props.state.map(el => <Post message={el.post} likes={el.likes}/>)
 
+    
+
     return (
         <div className={classes.postsBlock}>
             <h3>My Posts</h3>
