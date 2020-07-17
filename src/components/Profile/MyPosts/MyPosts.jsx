@@ -6,17 +6,22 @@ const MyPosts = (props) => {
 
     let postsElements = props.state.map(el => <Post message={el.post} likes={el.likes}/>)
 
-    
+    let newPostElement = React.createRef();
+
+    let addPost = () => {
+        let text = newPostElement.current.value; 
+        alert(text);
+    };
 
     return (
         <div className={classes.postsBlock}>
             <h3>My Posts</h3>
             <div>
                 <div>
-                    <textarea className={classes.text}></textarea>
+                    <textarea className={classes.text} ref={newPostElement}></textarea>
                 </div>
                 <div>
-                    <button>Add post</button>
+                    <button onClick={addPost}>Add post</button>
                 </div>
             </div>
             <div className={classes.posts}>

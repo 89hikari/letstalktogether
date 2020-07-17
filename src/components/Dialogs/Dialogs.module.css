@@ -1,11 +1,65 @@
 .dialogs{
     display: flex;
     width: 100%;
-    padding-top: 3vh;
+    height: 100%;
+    margin-left: 4vh;
 }
 
 .dialogsItems {
-    width: 25vw;
+    width: 30%;
+    position: relative;
+    margin: 1vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    padding-right: 12vw;
+}
+
+.dialogsItems::before{
+    border-radius: 20px;
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.dialogsItems::after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -2;
+    filter: blur(40px);
+}
+
+.dialogsItems::before,
+.dialogsItems::after{
+    background: linear-gradient(235deg, #a465ec88, #060818, #00bcd4);
+}
+
+.dialog{
+    width: 200%;
+    position: relative;
+}
+
+.dialog::before{
+    content: '';
+    border-radius: 10px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    right: -1vh;
+    bottom: 4px;
+    background: #fff;
+    opacity: 0.07;
+    z-index: -1;
 }
 
 .dialog a{
@@ -29,8 +83,34 @@
     margin-left: 2vh;
 }
 
+.dialog a{
+    position: relative;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 0 15px #00f3ff;
+    font-family: sans-serif;
+    letter-spacing: 1.5 px;
+    color: rgb(0, 225, 255);
+    text-decoration: none;
+    outline: none;
+}
+
+.dialog a.nameLink::before{
+    content: '';
+    border-radius: 10px;
+    position: absolute;
+    top: -1.8vw;
+    left: -5.8vw;
+    right: -19vw;
+    bottom: -4vh;
+    max-width: 21.3vw;
+    background: #fff;
+    opacity: 0;
+    z-index: 2;
+}
+
 .dialog a:visited{
-    color: rgb(0, 0, 0);
     text-decoration: none;
     outline: none;
 }
@@ -48,6 +128,46 @@
     color: white;
 }
 
+.dialog a.active.nameLink{
+    color: rgb(49, 24, 24);
+}
+
 .messages{
+    position: relative;
+    margin: 1vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    margin-right: 9vh;
+    width: 100%;
     color: white;
+}
+
+.messages::before{
+    border-radius: 20px;
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.messages::after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -2;
+    filter: blur(40px);
+}
+
+.messages::before,
+.messages::after{
+    background: linear-gradient(235deg, #00bcd4, #060818, #a465ec88);
 }
