@@ -30,17 +30,6 @@
     z-index: -1;
 }
 
-.dialogsItems::after{
-    content: '';
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    background: #fff;
-    z-index: -2;
-    filter: blur(40px);
-}
 
 .dialogsItems::before,
 .dialogsItems::after{
@@ -58,7 +47,7 @@
     position: absolute;
     top: 4px;
     left: 4px;
-    right: -1vh;
+    right: -5.5vw;
     bottom: 4px;
     background: #fff;
     opacity: 0.07;
@@ -87,31 +76,33 @@
 }
 
 .dialog a{
-    position: relative;
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 3vw;
+    margin-left: 15px;
     text-shadow: 0 0 15px #00f3ff;
     font-family: sans-serif;
-    letter-spacing: 1.5 px;
+    letter-spacing: 1.5px;
     color: rgb(0, 225, 255);
     text-decoration: none;
     outline: none;
 }
 
-.dialog a.nameLink::before{
-    content: '';
-    border-radius: 10px;
-    position: absolute;
-    top: -1.8vw;
-    left: -5.8vw;
-    right: -9vw;
-    bottom: -4vh;
-    max-width: 16vw;
-    background: #fff;
-    opacity: 0;
-    z-index: 2;
-}
+@media all and (max-width: 1200px) {
+    .dialog a{
+        padding-left: 6vw;
+        font-size: 20px;
+    }
+  }
 
 .dialog a:visited{
     text-decoration: none;

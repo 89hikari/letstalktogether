@@ -1,7 +1,7 @@
 .app-wrapper{
   display: grid;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
   grid-template-areas:
   "h h"
@@ -31,6 +31,13 @@
                 overflow-x: hidden;
                 overflow-y: auto;
 }
+
+@media all and (max-width: 1200px) {
+  .app-wrapper-content{
+    width: 75vw;
+  }
+}
+
 
 .app-wrapper-content::after {
   content: "";
