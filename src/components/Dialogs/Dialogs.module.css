@@ -203,3 +203,25 @@
     opacity: 0.4;
     z-index: 0;
 }
+
+.textArea{
+    width: 80%;
+    height: 10vh;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    outline: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    resize: none;
+    font-size: 25px;
+    border-radius: 8px;
+    color: #fff;
+}
+.messageInput{
+    
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    bottom: 0;
+}
