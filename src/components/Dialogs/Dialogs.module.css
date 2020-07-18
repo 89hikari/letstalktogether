@@ -14,7 +14,7 @@
     padding-right: 12vw;    
     overflow-x: hidden;
     overflow-y: auto;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 .dialogsItems::before{
@@ -105,9 +105,9 @@
     position: absolute;
     top: -1.8vw;
     left: -5.8vw;
-    right: -19vw;
+    right: -9vw;
     bottom: -4vh;
-    max-width: 21.3vw;
+    max-width: 16vw;
     background: #fff;
     opacity: 0;
     z-index: 2;
@@ -173,4 +173,33 @@
 .messages::before,
 .messages::after{
     background: linear-gradient(235deg, #00bcd4, #060818, #a465ec88);
+}
+
+.container{
+    position: relative;
+    margin-top: 100px;
+    max-width: 500px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.chatHead{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+   /* background: linear-gradient(235deg, #af02ff, #424c99, #f325f388);*/
+    border-radius: 15px;
+}
+
+.chatHead::before{
+    content: '';
+    background: linear-gradient(235deg, #af02ff, #424c99, #f325f388);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 15px;
+    opacity: 0.4;
+    z-index: 0;
 }
