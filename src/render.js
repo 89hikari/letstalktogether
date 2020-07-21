@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import {addPost} from './redux/state'
+import {addPost, updatePostText} from './redux/state'
 
 export let rerenderTree = (state) => {
   ReactDOM.render(

@@ -13,7 +13,8 @@ let state = {
             {name: "Vandes", img: "https://cdn.jpegmini.com/user/images/slider_puffin_before_mobile.jpg"}, 
             {name: "Valera", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTSu5RVwzc8LFlzQ3hbeeGM2JSLw47uwgWaAg&usqp=CAU"},
             {name: "Aloxa", img: "https://www.gettyimages.com/gi-resources/images/500px/983801190.jpg"}
-        ]
+        ],
+        newPostText: 'im new post'
     },
     
     messagesPage: {
@@ -45,6 +46,12 @@ export let addPost = (postMessage) => {
     };
 
     state.profilePage.posts.push(newPost);
+    rerenderTree(state);
+}
+
+export let updatePostText = (newText) => {
+
+    state.profilePage.newPostText = newText;
     rerenderTree(state);
 }
 
