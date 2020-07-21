@@ -14,7 +14,7 @@ let state = {
             {name: "Valera", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTSu5RVwzc8LFlzQ3hbeeGM2JSLw47uwgWaAg&usqp=CAU"},
             {name: "Aloxa", img: "https://www.gettyimages.com/gi-resources/images/500px/983801190.jpg"}
         ],
-        newPostText: 'im new post'
+        newPostText: ''
     },
     
     messagesPage: {
@@ -37,15 +37,18 @@ let state = {
     }
 }
 
-export let addPost = (postMessage) => {
+window.state = state;
+
+export let addPost = () => {
 
     let newPost = {
         id: 3,
-        post: postMessage,
+        post: state.profilePage.newPostText,
         likes: 0
     };
 
     state.profilePage.posts.push(newPost);
+    state.profilePage.newPostText = '';
     rerenderTree(state);
 }
 
